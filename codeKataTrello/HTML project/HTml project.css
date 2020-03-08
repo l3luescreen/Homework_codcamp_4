@@ -1,0 +1,24 @@
+#main {
+    background-color: hsl(163, 0%, 73%);
+}
+
+#title {
+    padding: 50px;
+}
+
+#img-div {
+    background-color: hsl(163, 0%, 100%);
+    margin: 10px;
+}
+
+#info {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    text-align: left;
+}
+
+.cen {
+    text-align: center;
+    position: relative;
+}
