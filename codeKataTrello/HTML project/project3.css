@@ -1,0 +1,104 @@
+*{
+    transition:all .3s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: hsl(180, 100%, 80%);
+}
+
+h3 {
+    color: hsl(0, 80%, 80%);
+}
+
+.project-box {
+    width: 250px;
+    height: 300px;
+    margin: 50px;
+    background-color: hsl(90, 0%, 18%);
+}
+
+.project-box:hover{
+    border: 2px solid hsl(180, 100%, 80%);
+
+}
+
+.description {
+    padding-top: 7px;
+}
+
+.icon-social {
+    margin-left: 20px;
+}
+
+.icon-social:hover {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.menu{
+    display: inline-block;
+    margin-left: 10px;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu:hover{
+    border: 3px solid hsl(0, 100%, 0%);
+}
+
+#link-social{
+    margin-top: 100px;
+}
+
+#my-project {
+    display: inline-flex;
+}
+
+#welcome-section {
+    height: 70vh;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 250px;
+    background-color: hsl(90, 0%, 18%);
+}
+
+#projects {
+    padding-top: 10px;
+    text-align: center;
+    height: 80vh;
+    font-size: x-large;
+    color: hsl(180, 100%, 80%);
+    background-color: hsl(90, 0%, 50%);
+}
+
+#bottom-page {
+    height: 90vh;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 100px;
+    background-color: hsl(90, 0%, 18%);
+}
+
+#bottom-line {
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+    border: 1px solid hsl(0, 100%, 50%);
+}
+
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: hsl(0, 100%, 0%);
+    background-color: hsl(0, 100%, 80%);
+}

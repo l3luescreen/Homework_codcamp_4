@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form id="orderForm" autocomplete="on">
+        <fieldset>
+            <legend> Customer Info </legend>
+            <p>
+                <label>Name:
+                    <input id="fullname" name="name" type="text" placeholder="Enter your name" autofocus required
+                        size="50">
+                </label>
+            </p>
+            <p>
+                <label>Telephone:
+                    <input id="tel" name="telephone" type="tel" required size="50" placeholder="Pattern: 1-234-567-8910"
+                        pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))">
+                </label>
+            </p>
+            <p>
+                <label>E-mail address:
+                    <input id="email" name="email" type="email" placeholder="Enter your email address" required
+                        size="50">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> Books </legend>
+            <p>
+                <label>
+                    <input type="text" name="productlist" list="books" size="45">
+                    <datalist id="books">
+                        <option value="HTML5 Canvas by Steve Fulton & Jeff Fulton">
+                        <option value="JavaScript: The Definitive Guide by David Flanagan">
+                        <option value="HTML5 Geolocation by Anthony T. Holdener III">
+                        <option value="Supercharged JavaScript Graphics by Raffaele Cecco">
+                        <option value="HTML5: Up and Running by Mark Pilgrim">
+                    </datalist>
+                </label>
+                <label>
+                    Quantity (Maximum 5): <input name="form_number" id="form_number" type="number" min="1" max="5">
+                </label>
+            </p>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+
+</html>
