@@ -1,0 +1,98 @@
+h6 {
+    font-size: 15px;
+}
+
+.card {
+    border-color: hsl(0, 100%, 100%) !important;
+    padding: 0;
+}
+
+.bg-danger {
+    background-color: hsl(0, 100%, 50%) !important;
+}
+
+.bg-light {
+    color: hsl(0, 100%, 50%);
+    padding-left: 5px;
+    padding-right: 5px;
+}ยาที่
+
+.head-bar {
+    height: 100px;
+}
+
+.menu {
+    font-size: 15px;
+    height: 50px;
+    border-color: hsl(0, 100%, 90%);
+    border-right-style: solid;
+    /* border: 1px solid hsl(0, 100%, 1%); */
+}
+
+.row {
+    padding: 0;
+}
+
+.signup {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.bg-grey {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: hsl(0, 10%, 90%);
+    padding: 20px 10px 20px;
+}
+
+.spon {
+    border: 2px solid hsl(0, 10%, 90%);
+    margin: 50px 0px 50px;
+    font-size: 12px;
+}
+
+.mangazine {
+    /* align-items: center; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.mangazine-content {
+    margin: 20px;
+    display: inline-block;
+}
+
+#icon{
+    
+    font-size: 40px;
+    color: hsl(0, 10%, 40%);
+}
+
+#web-name {
+    font-size: 40px;
+}
+
+#weather-day {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+#sign-in {
+    padding-top: 60px;
+    margin-right: 10px;
+}
+
+#sign-sub {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#right-head-bar {
+    align-content: flex-end;
+}
+
+#bottom-name{
+    color: hsl(0, 100%, 50%);
+    font-size: 50px;
+}

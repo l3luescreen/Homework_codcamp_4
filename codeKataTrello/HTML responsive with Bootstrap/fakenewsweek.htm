@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Fakenews</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="bg-danger p-2 text-white head-bar">
+            <div class="row">
+                <div class="col-md-3 text-left" id="weather-day">
+                    <i class="fas fa-cloud-sun"></i>
+                    <b>33๐ Bangkok, TH</b>
+                    <i class="fas fa-angle-right"></i>
+                    <br>
+                    <b>Thu, Mar 12, 2020</b>
+
+                </div>
+                <div class="col-md-6 text-center" id="web-name">
+                    <b>Fake Newsweeks</b>
+                </div>
+                <div class="col-md-3 text-right" id="right-head-bar">
+                    <div class="row" id="sign-in">
+                        <div class="col">
+                            <b>SIGN IN</b>
+                        </div>
+                        <div class="bg-light text-center col-md-6">
+                            <b>SUBSCRIBE </b><i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row category">
+            <div class="col-md menu">U.S.</div>
+            <div class="col-md menu">World</div>
+            <div class="col-md menu">Business</div>
+            <div class="col-md menu">Tech & Science</div>
+            <div class="col-md menu">Culture</div>
+            <div class="col-md menu">Newsgeek</div>
+            <div class="col-md menu">Sports</div>
+            <div class="col-md menu">Health</div>
+            <div class="col-md menu">The Debate</div>
+            <div class="col-md menu">Vantage</div>
+            <div class="col-md menu">Weather</div>
+            <div class="col-md menu2"><input type="text" placeholder="search"></div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-4 content">
+                FEATURED STORIES
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573061/tony-blair-joe-biden-2020-donald-trump.webp?w=397&h=265&q=90&f=fb7b080d172cdeede5c791101921c15d"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tony Blair Says Biden Must Offer More Than 'Back to Normal' to Beat Trump
+                        </h5>
+                        <p class="card-text">The former British prime minister told Newsweek that the Democratic Party
+                            must move away from left-wing populism and develop an inspiring, future-focused campaign if
+                            it wants to win.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573207/gloria-allred.webp?w=397&h=265&q=90&f=440153442a393add0eea49fe10057b06"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Weinstein Sentence Shows Justice System Has Better Understanding of Rape
+                        </h5>
+                        <p class="card-text">Weinstein's 23-year sentence was the outcome advocates for sexual assault
+                            survivors were "hoping for," said Scott Berkowitz, the president of the Rape, Abuse & Incest
+                            National Network.</p>
+                        <hr>
+                        <p>Harvey Weinstein Speaks as Judge Imposes 23-Year Prison Sentence</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573561/us-soccer-president-carlos-cordeiro.webp?w=397&h=265&q=90&f=1e4bfa6bb32f1b3e26590031a88d10f3"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">President of U.S. Soccer Steps Down After Outcry Over Misogynistic
+                            Language</h5>
+                        <p class="card-text">"I did not have the opportunity to fully review the filing in its entirety
+                            before it was submitted, and I take responsibility for not doing so," Carlos Cordeiro said
+                            Thursday.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573556/chuck-schumer.webp?w=397&h=265&q=90&f=bb10ff62b0091fe36827958f2d168a7b"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">U.S. Chamber of Commerce Says Virus Outbreak 'Isn't the Time' for Dem
+                            Bill</h5>
+                        <p class="card-text">"This emergency bill should not create a federal, one-size-fits-all,
+                            permanent leave mandate on employers," read the Thursday letter.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573553/walt-disney-world.webp?w=397&h=265&q=90&f=720d4c0c878b0af0b1a58e0f7da030d9"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Disney World, Disneyland Paris and Disney Cruises Suspending Operations
+                        </h5>
+                        <p class="card-text">The Walt Disney Company announced earlier on Thursday that the original
+                            Disneyland in Anaheim, California, would also be closing this weekend.</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573144/venezuela-maduro-sanctions-protest-guaido.webp?w=397&h=265&q=90&f=f36be40b22145d847e9290e014a9ca4e"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">U.S. Attacks Venezuela Human Rights Record After U.N. Condemns Sanctions
+                        </h5>
+                        <p class="card-text">The U.N. high commissioner for human rights attacked alleged abuses by the
+                            Venezuelan government but said that the "imposition of new economic sanctions is
+                            concerning."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 content">
+                TOP STORY
+                <div class="card" style="width: 25rem;">
+                    <img class="card-img-top"
+                        src="https://d.newsweek.com/en/full/1573273/whuna-china-coronavirus-peak-announce-new-cases.webp?w=591&h=364&f=2ebecbbda0bd95a45df27333d8b36c57"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">China Claims Peak of Coronavirus Epidemic Has Passed As New Cases Decline
+                        </h5>
+                        <p class="card-text">Chinese officials said that while the number of new cases is declining,
+                            treatment and containment will remain the country's top priority.</p>
+                    </div>
+                </div>
+                <hr>
+                CULTURE & TRAVEL
+                <div class="row">
+                    <div class="col-4">
+                        <div class="card" style="width: 150px;">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1572738/flight-cancel-refund-reschedule-italy-coronavirus-lockdown.webp?w=397&h=397&f=78ee008094a5891e78049c5b6beedef5"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">Italy Coronavirus Lockdown: How to Reschedule Flights, Receive
+                                    Refunds</h6>
+                                <p class="card-text">Ahead of the country-wide lockdown announcement, airlines already
+                                    started giving customers options to change their travel plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 150px;">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1572553/restaurants-edge-still.webp?w=397&h=397&f=fcd42aa2505310a1853036746f9a330c"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">'Restaurants on the Edge': Hosts Dish About New Netflix Show</h6>
+                                <p class="card-text">Netflix's new food and travel docuseries spans the globe as it
+                                    makes over failing restaurants that try to get by on their beautiful views alone</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card" style="width: 150px;">
+                            <img class="card-img-top"
+                                src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.webp?w=397&h=397&f=5debbb1743b026c67fa7c79736721c31"
+                                alt="Card image cap">
+                            <div class="card-body">
+                                <h6 class="card-title">Best Stargazing Spots Around the Globe</h6>
+                                <p class="card-text">Astrotourism is taking off, and these are the best places—on our
+                                    planet, at least—to witness the dazzling display of luminous balls of gas that we
+                                    call stars.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    MORE STORIES
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573291/travellers-paris-airport.webp?w=95&h=95&f=a751ff8677a4e79edbe6b2f16b813805"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Trump's Coronavirus Europe Travel Ban: Five Things You Need to Know</h6>
+                            <p>The U.S. president announced in a prime time address from the Oval Office there would be
+                                a temporary ban on travel from Europe, but there are several exemptions.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573346/michael-bloomberg-florida-super-tuesday.webp?w=95&h=95&f=0b60de92701908cd608afe06dc95666d"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Why the Bloomberg Campaign Really Isn't Over</h6>
+                            <p>"Even though he is no longer a candidate himself, Michael Bloomberg's presence will loom
+                                large over the 2020 presidential race," one analyst said.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573334/istock-fake-news.webp?w=95&h=95&f=b339ecd10e5f0521ae729cf6fb007486"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Fact-Checking COVID-19 Pandemic Hoaxes</h6>
+                            <p>Are the stories you're seeing on COVID-19 fact or fiction?</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1572023/bernie-sanders-supporters-rally-california.webp?w=95&h=95&f=9f1d1fb4ae7fe0858250b621cdfaedf5"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>These Six States Could Determine the 2020 Presidential Election</h6>
+                            <p>"The Electoral College creates these strange incentives for campaigns to ignore most of
+                                the country and pour their attention into a small number of places," one political
+                                scientist told Newsweek.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573280/pelosi.webp?w=95&h=95&f=9c4856ccb3928d0e9e3a5adcbda5e636"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Pelosi Says House to Pass Coronavirus Package With Free Testing for All</h6>
+                            <p>"We cannot fight coronavirus effectively unless everyone in our country who needs to be
+                                tested knows they can get their test free of charge," House Speaker Nancy Pelosi said.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573259/nurses.webp?w=95&h=95&f=906b4731398ed2f4f66053d77cc95f3b"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Nurses Protest Over 'Mass Confusion' on How to Prepare for Coronavirus</h6>
+                            <p>Country's largest nursing union accuses CDC of weakening stance on virus on same day WHO
+                                declared COVID-19 a global pandemic.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573347/bernie-sanders-joe-biden.webp?w=95&h=95&f=7de0fb32374473e9904bef0f98f9fe0f"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Bernie Sanders Says Joe Biden Can Beat Donald Trump: 'Don't Tell Anybody'</h6>
+                            <p>"I think even Republicans and moderates are gonna say you know what, we can't have four
+                                more years of this guys," Sanders told Jimmy Fallon.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573325/dr-anthony-fauci-washington-dc.webp?w=95&h=95&f=b61eb2c6675eabbaf14731ea24bd981f"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Trump's Top Coronavirus Doctor Called For Health Emergency Fund in 2017</h6>
+                            <p>Dr. Anthony Fauci told a Georgetown University event that there was "no doubt" the Trump
+                                administration would face with similar disease challenges to its predecessors.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573418/noaa-national-forecast-march-12-2020.webp?w=95&h=95&f=e6fb48464067171865eb19237fb1370a"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Cold Weather System to Cover West and Pacific Northwest in Snow</h6>
+                            <p>Some areas could see temperatures drop below zero.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573285/coronavirus.webp?w=95&h=95&f=6c23fe27eb09c4bf3a35998d2c4e1c04"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>Gun Store Owners Report Rise in Asians Buying Weapons Amid Coronavirus</h6>
+                            <p>Stores in Washington and California say local Asian communities are concerned for their
+                                safety.
+                            </p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="https://d.newsweek.com/en/full/1573382/nhl.webp?w=95&h=95&f=aafde09aa789ea197e2c1fbe9dc4934b"
+                                alt="">
+                        </div>
+                        <div class="col-9">
+                            <h6>NHL Suspends Season Due to Coronavirus</h6>
+                            <p>The National Hockey League announced that it would suspend its 2019-2020 season,
+                                following the NBA's decision to do the same on Wednesday.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 content">
+                OPINION
+                <div class="row">
+                    <div class="col-3">
+                        <img src="https://d.newsweek.com/en/full/1573495/ibrahim-alhusseini.webp?w=63&h=63&f=89e38b80fbb92ca0db7598e944a5acdd"
+                            alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-9">
+                        <h6>Trump Is Hurting the Economy by Linking Coronavirus to Immigration</h6>
+                        <p>BY IBRAHIM ALHUSSEINI</p>
+                    </div>
+                    <hr>
+                    <div class="col-3">
+                        <img src="https://d.newsweek.com/en/full/1573355/leeza-garber.webp?w=63&h=63&f=da5f70a170f6ee7a6c2da3b125b81112"
+                            alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-9">
+                        <h6>Coronavirus and In-Person Voting Don't Mix. We Must Prepare for Digitized Elections</h6>
+                        <p>BY LEEZA GARBER</p>
+                    </div>
+                    <hr>
+                    <div class="col-3">
+                        <img src="https://d.newsweek.com/en/full/1565352/aimee-allison.webp?w=63&h=63&f=d992b291970adc50b2ef89b19cf632fa"
+                            alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-9">
+                        <h6>A Woman of Color VP Is More Than a Consolation Prize. It's a Necessity</h6>
+                        <p>BY AIMEE ALLISON</p>
+                    </div>
+                    <hr>
+                    <div class="col-3">
+                        <img src="https://d.newsweek.com/en/full/1500975/sam-hill.webp?w=63&h=63&f=608e92ee38c2b44188e64f7006592687"
+                            alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-9">
+                        <h6>In the Taliban-U.S. Agreement, Everybody Wins—Except Women</h6>
+                        <p>BY SAM HILL</p>
+                    </div>
+                    <hr>
+                    <div class="col-3">
+                        <img src="https://d.newsweek.com/en/full/1573495/ibrahim-alhusseini.webp?w=63&h=63&f=89e38b80fbb92ca0db7598e944a5acdd"
+                            alt="" width="50px" height="50px">
+                    </div>
+                    <div class="col-9">
+                        <h6>Trump Is Hurting the Economy by Linking Coronavirus to Immigration</h6>
+                        <p>BY IBRAHIM ALHUSSEINI</p>
+                    </div>
+                    <hr>
+                </div>
+                <hr>
+                LATEST NEWS
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573649/president-donald-trump.webp?w=95&h=95&f=58efbc4740b8a46d166abc84f9e4bda1"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Most Americans Don't Trust Trump to Tell Truth About Coronavirus: Poll</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573643/van.webp?w=95&h=95&f=15b91f301208ffc3d8aaf3977507d9d8"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Prisoner Transport Officer Convicted of Sexually Assaulting Female Inmates</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573642/rory-mcilroy-pga-tour.webp?w=95&h=95&f=3c71ed1ad4d245ab7a92b85cb028c97e"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Rory McIlroy Calls for Widespread COVID-19 Tests as PGA Tour Is Suspended</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573562/pete-buttigieg.webp?w=95&h=95&f=0914060ac85783bc87cd45c198afc8e9"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Buttigieg Fills in For Kimmel, Plays 'Trek' Trivia With Sir Patrick Stewart</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573565/toilet-paper-man.webp?w=95&h=95&f=198d2bbbef110372dca45041d060b29e"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Florida Man Charged With Burglary After Stealing $1 Toilet Paper</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573447/istock-friday-13th-march-2020.webp?w=95&h=95&f=782e8365a1c4380a8c83bb2eb87eebb3"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Friday the 13th: Quotes and Memes to Help Celebrate Our Favorite Unlucky Da
+                        </h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://d.newsweek.com/en/full/1573435/istock-friday-13th-bad-luck-march-2020.webp?w=95&h=95&f=ef90759862a9a9c8c938760066bcd5b7"
+                            alt="" width="80px" height="80px">
+                    </div>
+                    <div class="col-8">
+                        <h6>Friday 13th: Origins of Superstition Explained</h6>
+                    </div>
+                </div>
+                <hr>
+                <div class="row spon">
+                    <div class="card" style="width: 500px;">
+                        <img class="card-img-top"
+                            src="https://www.thailandtrustmark.com/upload/app/2014-08/568/web/company-logo-568-140925-7xjTGYs2.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Why it’s more fun in the Philippines
+                            </h5>
+                            <p class="card-text">The Philippines is riding high on renewed momentum. Voices of Leaders
+                                explored the causes behind their sunny economic forecast coupled with a sharpened
+                                sustainability focus. Read and discover what you’ve been missing about Asia’s overlooked
+                                gem!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center bg-grey">
+                    <h5>SIGN UP FOR OUR NEWSLETTER</h5>
+                    <button type="button" class="btn btn-secondary">
+                        <h5>SIGN UP <i class="fas fa-angle-right"></i></h5>
+                    </button>
+
+                    <h6>Update your preferences »</h6>
+                </div>
+                <div class="row spon">
+                    <div class="card" style="width: 500px;">
+                        <img class="card-img-top"
+                            src="https://lh3.googleusercontent.com/proxy/Uwz0m1fY9740UzNnyzHp7auGHqaaMvDygyZm6vs-rRpusuWfxskQ9NKcP6BJgQNGJB-Vm-FWfmpQVA7IqOfIlrapavCGP4ifU5vIMGsd4QAWpbUSHzZirgffoqSe"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">What Can A Private Education Do For Your Child?
+                            </h5>
+                            <p class="card-text">What is the single most consequential choice you make to give your
+                                child the best possible advantage in life? If you think it’s education, read on.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row spon">
+                    <div class="card" style="width: 500px;">
+                        <img class="card-img-top"
+                            src="https://uibswiss.ch/wp-content/uploads/2016/01/00_Top-Travel-Trends-for-2018_209155915_06photo_FT.jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Have You Thought About A Career In Law? If So, Where Should You Get
+                                Qualified?
+                            </h5>
+                            <p class="card-text">The rewards for a career in the legal profession are many and varied,
+                                and demand for lawyers is high. So which schools produce the best lawyers?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h3 class="text-center">In the magazine</h3>
+        <hr>
+        <div class="row text-center mangazine">
+            <hr>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1572460/march-13-2020.webp?w=290&h=387&q=90&f=e2c6b3e8ae187ab44d473474b85ff7f8"
+                    class="img-fluid" />
+                <p>See all features ></p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1571795/fea-okmillennials-banner.webp?w=466&h=311&q=90&f=22793e3731bb8612bf9e34795327f3e1"
+                    class="img-fluid" />
+                <p>OK, Millennial: Boomers Are the Greatest Generation in History</p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1569547/bernie-sanders.webp?w=466&h=311&q=90&f=699504971e7655a3af45bb949369d305"
+                    class="img-fluid" />
+                <p>Why Muslim Voters Love Bernie Sanders</p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1568834/vatican-pope-pius-xii.webp?w=466&h=311&q=90&f=414a5b99425e521d30d3d2e9acef2c5d"
+                    class="img-fluid" />
+                <p>'Hitler's Pope' Archive May Shed More Light on Role of Vatican in WWII</p>
+            </div>
+        </div>
+        <div class="row text-center mangazine">
+            <hr>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1571094/cul-stephenmalkmus-banner.webp?w=466&h=311&l=47&t=45&q=90&f=4b0a45aff01bf29a88a38346cc2de7c0"
+                    class="img-fluid" />
+                <p>Alt-Rock Legend Stephen Malkmus on His New Album and the Return of Pavement</p>
+
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1571081/cul-uncharted-stargazing-banner.webp?w=466&h=311&q=90&f=6c5df5a82080eaede6be27cf61169de0"
+                    class="img-fluid" />
+                <p>Best Stargazing Spots Around the Globe</p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1571088/cul-ps-danielradcliffe-banner.webp?w=466&h=311&l=50&t=49&q=90&f=0936b401592cfe6f911721c3c0595a99"
+                    class="img-fluid" />
+                <p>Magic Won't Help Daniel Radcliffe in 'Escape from Pretoria'</p>
+            </div>
+            <div class="col-md-3">
+                <img src="https://d.newsweek.com/en/full/1573149/us-politics-vote-biden.webp?w=397&h=265&f=6110d24280471f180f8400ebef89f98f"
+                    class="img-fluid" />
+                <p>'Hitler's Pope' Archive May Shed More Light on Role of Vatican in WWII</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-9">
+                <b id="bottom-name">Fakenews week</b>
+            </div>
+            <div class="col-md-3">
+                <b id="icon" class="text-right">
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                </b>
+            </div>
+        </div>
+        <hr>
+        <p>U.S. Edition | 
+            日本 | 
+            Pakistan | 
+            Polska | 
+            România | 
+            About Us | 
+            Corrections | 
+            Contact Us | 
+            Editorial Guidelines | 
+            Advertise | 
+            Copyright | 
+            Terms & Conditions | 
+            Privacy Policy | 
+            Cookie Policy | 
+            Terms of Sale | 
+            Archive | 
+            Announcements | 
+            Consent preferences | 
+        </p>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
